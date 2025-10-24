@@ -15,14 +15,9 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
+app.use(cors())
 
-app.use(cors({
-  origin: [
-    "http://localhost:5173",   // for local dev
-    "https://frontend-teal-nine-52.vercel.app/"  // 🔥 your Vercel frontend URL
-  ],
-  credentials: true
-}));
+
 
 
 // API end point
