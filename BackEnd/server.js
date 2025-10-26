@@ -6,6 +6,7 @@ import connectCloudinary from './config/cloudinary.js'
 import adminRouter from './Routes/admin.routes.js'
 import doctorRouter from './Routes/doctor.routes.js'
 import userRouter from './Routes/user.routes.js'
+
 const app = express()
 const port = process.env.PORT || 4000
 connectDB()
