@@ -17,8 +17,6 @@ connectCloudinary()
 app.use(express.json())
 app.use(cors())
 
-
-
 // API end point
 
 app.use('/api/admin', adminRouter)
