@@ -19,7 +19,6 @@ app.use(cors())
 
 
 
-
 // API end point
 
 app.use('/api/admin', adminRouter)
