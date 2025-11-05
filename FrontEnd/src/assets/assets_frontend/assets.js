@@ -87,31 +87,21 @@ export const specialityData = [
 
 export const doctors = [
     {
-        _id: 'doc1',
-        name: 'Nitin Tomar',
-        image: doc1,
-        speciality: 'Surgical Oncologist',
-        degree: 'MBBS, Mch, MD, MS',
-        experience: '18+ Years',
-        about: ' Dr. Nitin Tomar - Head & Neck Onco Surgeon in Indore at Kokilaben Hospital 
-Dr. Nitin Tomar
-Consultant, Head & Neck Onco Surgeon
-MS, FICS
-
-Department: Cancer
-YEARS OF PRACTICE: 25+ Years
-GENDER: Male
-LANGUAGES SPOKEN: English, Hindi
-Make an Appointment
-Biography
-Dr. Nitin Tomar is a Head & Neck Onco Surgeon in Indore India, & has a broad understanding of his subject & utilizes various approaches in performing Head & Neck Commando surgeries depending on the needs of his patients. He is a Head & Neck Surgeon & Consultant who has been extensively trained in France, Belgium & India. He is one of the most experienced Head & Neck Onco Surgeons with more than 15 years of clinical experience & practice in Indore. He has special interests in Laryngeal Cancer, Pharyngeal (Throat) Cancer, Nasal Cavity & Paranasal Sinus Cancers, Thyroid Cancer and Parathyroid Tumors Surgery. He ranks among the high-volume surgeons performing commando head & neck surgeries in central India.',
-        fees: 500,
-        address: {
-            line1: '513, 5th Floor, Koklaben Hopital',
-            line2: 'Ring Road, Indore'
-        }
-    },
-    {
+  _id: 'doc1',
+  name: 'Nitin Tomar',
+  image: doc1,
+  speciality: 'Surgical Oncologist',
+  degree: 'MBBS, Mch, MD, MS',
+  experience: '18+ Years',
+  about: `
+Dr. Nitin Tomar is a Head & Neck Onco Surgeon in Indore India, & has a broad understanding of his subject & utilizes various approaches in performing Head & Neck Commando surgeries depending on the needs of his patients. He is a Head & Neck Surgeon & Consultant who has been extensively trained in France, Belgium & India. He is one of the most experienced Head & Neck Onco Surgeons with more than 15 years of clinical experience & practice in Indore. He has special interests in Laryngeal Cancer, Pharyngeal (Throat) Cancer, Nasal Cavity & Paranasal Sinus Cancers, Thyroid Cancer and Parathyroid Tumors Surgery. He ranks among the high-volume surgeons performing commando head & neck surgeries in central India.`,
+  fees: 500,
+  address: {
+    line1: '513, 5th Floor, Kokilaben Hospital',
+    line2: 'Ring Road, Indore'
+  }
+},
+{
         _id: 'doc2',
         name: 'Dr. Emily Larson',
         image: doc2,
